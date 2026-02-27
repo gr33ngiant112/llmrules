@@ -2,6 +2,25 @@
 
 A consolidated repository of structured, sane software development processes designed for LLM-driven engineering. This repo serves as the central source of truth for all LLM agents (Claude, Cursor, Gemini) working across my projects.
 
+## 🎯 Desired Agent Outcomes
+
+Agents adhering to these rules should consistently deliver:
+- **High-Autonomy Progress:** Completing complex, multi-step tasks with minimal human intervention.
+- **Surgical Code Changes:** Implementing precise, elegant solutions that solve root causes without side effects.
+- **Empirical Reliability:** Every change is backed by passing tests, verified logs, and documented proof of correctness.
+- **Structural Integrity:** Adherence to established patterns (GitFlow, containerization, architectural layers) without deviation.
+- **Compound Learning:** A decreasing error rate over time as the agent captures and integrates "lessons learned" into its workflow.
+
+## 🔍 What These Rules Include
+
+These rules represent a synthesis of industry-standard best practices and project-specific successful patterns:
+- **Architectural Guidance:** Instructions for domain-driven design, multi-agent collaboration, and strict service isolation.
+- **Operational Protocols:** Step-by-step workflows for planning, executing, and validating software changes.
+- **Git & GitHub Standards:** Mandatory use of GitFlow and `gh` CLI for professional-grade repository management.
+- **Quality Gates:** Hard requirements for testing, linting, and security (zero-secret commitment policy).
+- **Communication Standards:** Rules for high-signal, professional communication that focuses on technical rationale.
+- **Anti-Failure Patterns:** Explicit blocks against common AI pitfalls like dummy data, hallucination, and "lazy" band-aid fixes.
+
 ## 📋 Table of Contents
 
 1. [Core Principles](./01_CORE_PRINCIPLES.md) - Senior mindset and autonomous execution.
