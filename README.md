@@ -20,6 +20,7 @@ These rules represent a synthesis of industry-standard best practices and projec
 - **Quality Gates:** Hard requirements for testing, linting, and security (zero-secret commitment policy).
 - **Communication Standards:** Rules for high-signal, professional communication that focuses on technical rationale.
 - **Anti-Failure Patterns:** Explicit blocks against common AI pitfalls like dummy data, hallucination, and "lazy" band-aid fixes.
+- **Change Impact Analysis:** A mechanical framework for mapping blast radius before making changes, eliminating the class of regressions caused by invisible dependencies.
 
 ## 📋 Table of Contents
 
@@ -30,6 +31,7 @@ These rules represent a synthesis of industry-standard best practices and projec
 5. [Testing & Validation](./05_TESTING_AND_VALIDATION.md) - Mandatory verification and bug-fixing protocols.
 6. [Self-Improvement](./06_SELF_IMPROVEMENT.md) - Continuous learning and lessons-learned loops.
 7. [Documentation](./07_DOCUMENTATION.md) - Minimalist, high-signal documentation standards.
+8. [Change Impact Analysis](./08_CHANGE_IMPACT_ANALYSIS.md) - Blast radius mapping and regression prevention framework.
 
 ## 🚀 How to Use These Rules
 
